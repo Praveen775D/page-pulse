@@ -1,5 +1,4 @@
-const API_URL = "http://localhost:5000/api/analyze";
-
+const API_URL = "https://page-pulse-1cnk.onrender.com/api/analyze";
 async function analyze() {
 
     const urlInput = document.getElementById("url");
