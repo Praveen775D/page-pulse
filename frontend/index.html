@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Pulse</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo">
+
+            🚀 <span>Page Pulse</span>
+
+        </div>
+
+        <button id="themeToggle">
+
+            🌙
+
+        </button>
+
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <span class="badge">
+
+            Website Analyzer
+
+        </span>
+
+        <h1>
+
+            Analyze Any Website Like a Professional
+
+        </h1>
+
+        <p>
+
+            SEO • Accessibility • Performance • Metadata • Content Analysis
+
+        </p>
+
+        <div class="search-box">
+
+            <input
+                type="url"
+                id="url"
+                placeholder="https://example.com"
+                autocomplete="off">
+
+            <button onclick="analyze()">
+
+                Analyze Website
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Feature Cards -->
+    <section class="stats">
+
+        <div class="mini-card">
+            <div class="icon">⚡</div>
+            <h3>Fast Analysis</h3>
+            <p>Instant website report</p>
+        </div>
+
+        <div class="mini-card">
+            <div class="icon">🔍</div>
+            <h3>SEO Audit</h3>
+            <p>Metadata & SEO insights</p>
+        </div>
+
+        <div class="mini-card">
+            <div class="icon">♿</div>
+            <h3>Accessibility</h3>
+            <p>Heading & image checks</p>
+        </div>
+
+        <div class="mini-card">
+            <div class="icon">📄</div>
+            <h3>Detailed Report</h3>
+            <p>Professional audit output</p>
+        </div>
+
+    </section>
+
+    <!-- Loader -->
+    <section id="loader"></section>
+
+    <!-- Report -->
+    <section id="report"></section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+
+            Built for
+
+            <a href="https://digitalheroesco.com"
+               target="_blank">
+
+                Digital Heroes Training Task
+
+            </a>
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+node_modules
+.env
+
+coverage
+
+dist
+
+build
+
+.vscode
+
+.DS_Store
+
+npm-debug.log
